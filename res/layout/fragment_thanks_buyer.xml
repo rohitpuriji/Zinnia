@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thanks"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvThanks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+        android:text="@string/text_thanks"
+        android:textColor="@color/text_dashboard_cat_color"
+        android:textSize="@dimen/ocassion_text_size" />
+
+    <ImageView
+        android:id="@+id/imgThanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvThanks"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/thanks_logo" />
+
+    <TextView
+        android:id="@+id/tvWay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvThanks"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/text_flowers_on_way"
+        android:layout_marginTop="@dimen/checkout_add_margin_top"
+        android:textColor="@color/text_dashboard_cat_color"
+        android:textSize="@dimen/checkout_flower_title1_size" />
+
+</RelativeLayout>

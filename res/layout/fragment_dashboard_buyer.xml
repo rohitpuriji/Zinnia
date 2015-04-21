@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buyer_dashboard" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:background="@color/text_ocassion_bg_color"
+            android:gravity="center"
+            android:text="@string/text_ocassion"
+            android:textColor="@color/text_ocassion_color"
+            android:textSize="@dimen/ocassion_text_size" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relativeBday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/imgBday"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/birthday" />
+
+            <TextView
+                android:id="@+id/tvBday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/text_dashboard_category_margin_bottom"
+                android:gravity="center"
+                android:text="@string/text_bday"
+                android:textColor="@color/text_dashboard_cat_color"
+                android:textSize="@dimen/txt_dashboard_category" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeBecause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/imgBecause"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/just_because" />
+
+            <TextView
+                android:id="@+id/tvBecause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/text_dashboard_category_margin_bottom"
+                android:gravity="center"
+                android:text="@string/text_because"
+                android:textColor="@color/text_dashboard_cat_color"
+                android:textSize="@dimen/txt_dashboard_category" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relativeWell"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/imgWell"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/get_well" />
+
+            <TextView
+                android:id="@+id/tvWell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/text_dashboard_category_margin_bottom"
+                android:gravity="center"
+                android:text="@string/text_getwell"
+                android:textColor="@color/text_dashboard_cat_color"
+                android:textSize="@dimen/txt_dashboard_category" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeSympathy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/imgSympathy"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/sympathy" />
+
+            <TextView
+                android:id="@+id/tvSympathy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/text_dashboard_category_margin_bottom"
+                android:gravity="center"
+                android:text="@string/text_sympathy"
+                android:textColor="@color/text_dashboard_cat_color"
+                android:textSize="@dimen/txt_dashboard_category" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

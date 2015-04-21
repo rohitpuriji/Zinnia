@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_btn_margin_top"
+        android:gravity="center"
+        android:text="@string/text_write_note"
+        android:textColor="@color/text_ocassion_color"
+        android:textSize="@dimen/top_login_text_size" />
+
+    <TextView
+        android:id="@+id/textOptional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_btn_margin_top"
+        android:gravity="center"
+        android:text="@string/text_optional"
+        android:textColor="@color/text_ocassion_color"
+        android:textSize="@dimen/optional_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_btn_margin_top"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/note" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/write_note_textfield_height"
+        android:layout_marginLeft="@dimen/fb_btn_margin_top"
+        android:layout_marginRight="@dimen/fb_btn_margin_top"
+        android:layout_marginTop="@dimen/fb_btn_margin_top"
+        android:background="@color/write_note_bg"
+        android:gravity="top|left"
+        android:hint="@string/text_note_hint"
+        android:paddingLeft="@dimen/write_note_padding_left"
+        android:paddingTop="@dimen/write_note_padding_left"
+        android:textSize="@dimen/write_note_textfield_size" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textChar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/fb_btn_margin_top"
+        android:layout_marginTop="@dimen/char_margin_top"
+        android:gravity="right"
+        android:text="@string/text_char"
+        android:textColor="@color/text_ocassion_color"
+        android:textSize="@dimen/optional_text_size" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/next_btn_color"
+            android:text="@string/text_next"
+            android:textColor="@color/text_dashboard_cat_color"
+            android:textSize="@dimen/edittext_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

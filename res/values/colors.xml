@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_ocassion_color">#EA624A</color>
+    <color name="text_dashboard_cat_color">#FFFFFF</color>
+    <color name="text_ocassion_bg_color">#ddffffff</color>
+    <color name="sliding_menu_bg_color">#565957</color>
+    <color name="line_color">#efefef</color>
+    <color name="edittext_bg_color">#D1D1D1</color>
+    <color name="login_bg_color">#F79137</color>
+    <color name="or_enter_color">#939598</color>
+    <color name="next_btn_color">#FCBC3B</color>
+    <color name="write_note_bg">#D1D1D1</color>
+    <color name="custom_circle_bg">#D1D1D1</color>
+    <color name="custom_circle_text">#616B65</color>
+    <color name="custom_circle_press_bg">#EA624A</color>
+    
+</resources>

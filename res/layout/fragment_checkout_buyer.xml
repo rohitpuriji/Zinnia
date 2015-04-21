@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fb_btn_margin_left"
+        android:layout_marginRight="@dimen/fb_btn_margin_right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textFlorists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:gravity="center"
+            android:text="@string/text_checkout"
+            android:textColor="@color/text_ocassion_color"
+            android:textSize="@dimen/ocassion_text_size" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:background="@color/text_ocassion_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgFlower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fb_btn_margin_left"
+                android:background="@drawable/order_logo" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fb_btn_margin_left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textFlowerTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:text="The Blissful Bounty"
+                    android:textColor="@color/text_ocassion_color"
+                    android:textSize="@dimen/checkout_flower_title1_size" />
+
+                <TextView
+                    android:id="@+id/textFlowerTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+                    android:gravity="center"
+                    android:text="Fruitful Flowers"
+                    android:textColor="@color/or_enter_color"
+                    android:textSize="@dimen/checkout_flower_title2_size" />
+
+                <TextView
+                    android:id="@+id/textFlowerTitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+                    android:gravity="center"
+                    android:text="$55"
+                    android:textColor="@color/text_ocassion_color"
+                    android:textSize="@dimen/checkout_flower_title3_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkout_add_margin_top"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/fb_btn_margin_left"
+                android:background="@drawable/map_pin" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fb_btn_margin_left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textDelivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:text="@string/text_delivery_add"
+                    android:textColor="@color/text_ocassion_color"
+                    android:textSize="@dimen/checkout_flower_title1_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textDeliveryTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+                    android:gravity="center"
+                    android:text="Megan Lueders"
+                    android:textColor="@color/text_ocassion_color"
+                    android:textSize="@dimen/checkout_flower_title2_size" />
+
+                <TextView
+                    android:id="@+id/textDeliveryAdd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+                    android:gravity="center"
+                    android:text="6622 Hartman Ave"
+                    android:textColor="@color/or_enter_color"
+                    android:textSize="@dimen/checkout_flower_title3_size" />
+
+                <TextView
+                    android:id="@+id/textDeliveryAdd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+                    android:gravity="center"
+                    android:text="Omaha NE 68104"
+                    android:textColor="@color/or_enter_color"
+                    android:textSize="@dimen/checkout_flower_title3_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkout_add_margin_top"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/fb_btn_margin_left"
+                android:background="@drawable/checkout_time" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fb_btn_margin_left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:text="@string/text_time_time"
+                    android:textColor="@color/text_ocassion_color"
+                    android:textSize="@dimen/checkout_flower_title1_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+                    android:gravity="center"
+                    android:text="8am - 12pm"
+                    android:textColor="@color/text_ocassion_color"
+                    android:textSize="@dimen/checkout_flower_title2_size" />
+
+                <TextView
+                    android:id="@+id/textDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/checkout_flower_title_margin_top"
+                    android:gravity="center"
+                    android:text="Feb 12,2015"
+                    android:textColor="@color/or_enter_color"
+                    android:textSize="@dimen/checkout_flower_title3_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginTop="@dimen/checkout_add_margin_top"
+            android:background="@color/text_ocassion_color" />
+
+        <Button
+            android:id="@+id/btnBuyNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fb_btn_margin_left"
+            android:layout_marginRight="@dimen/fb_btn_margin_right"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:background="@drawable/custom_buy_button"
+            android:text="@string/text_buynow"
+            android:textColor="@color/text_dashboard_cat_color"
+            android:textSize="@dimen/edittext_text_size" />
+    </LinearLayout>
+
+</ScrollView>

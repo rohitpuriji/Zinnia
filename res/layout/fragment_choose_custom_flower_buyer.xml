@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textCustomTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fb_btn_margin_left"
+            android:layout_marginRight="@dimen/fb_btn_margin_right"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:gravity="center"
+            android:text="@string/text_something_custom"
+            android:textColor="@color/text_ocassion_color"
+            android:textSize="@dimen/top_login_text_size" />
+
+        <TextView
+            android:id="@+id/textCustomTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fb_btn_margin_left"
+            android:layout_marginRight="@dimen/fb_btn_margin_right"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:gravity="center"
+            android:text="@string/text_custom_details"
+            android:textSize="@dimen/custom_details_size" />
+
+        <EditText
+            android:id="@+id/etCustomPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_pref_height"
+            android:layout_marginLeft="@dimen/fb_btn_margin_left"
+            android:layout_marginRight="@dimen/fb_btn_margin_right"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:background="@color/edittext_bg_color"
+            android:gravity="top"
+            android:hint="@string/text_custom_hint"
+            android:paddingLeft="@dimen/login_edittext_text_padding"
+            android:paddingTop="@dimen/login_edittext_text_padding" />
+
+        <TextView
+            android:id="@+id/textCustomSpendMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fb_btn_margin_left"
+            android:layout_marginRight="@dimen/fb_btn_margin_right"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:gravity="center"
+            android:text="@string/text_custom_spent"
+            android:textSize="@dimen/custom_details_size" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fb_btn_margin_left"
+            android:layout_marginRight="@dimen/fb_btn_margin_right"
+            android:layout_marginTop="@dimen/fb_btn_margin_top"
+            android:layout_marginBottom="@dimen/fb_btn_margin_top"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn35"
+                android:layout_width="@dimen/custom_circle_size"
+                android:layout_height="@dimen/custom_circle_size"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_evaluation_btn_normal"
+                android:gravity="center"
+                android:text="@string/text_custom_35"
+                android:textColor="@color/custom_circle_text" />
+
+            <Button
+                android:id="@+id/btn50"
+                android:layout_width="@dimen/custom_circle_size"
+                android:layout_height="@dimen/custom_circle_size"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_evaluation_btn_normal"
+                android:gravity="center"
+                android:text="@string/text_custom_50"
+                android:textColor="@color/custom_circle_text" />
+
+            <Button
+                android:id="@+id/btn65"
+                android:layout_width="@dimen/custom_circle_size"
+                android:layout_height="@dimen/custom_circle_size"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_evaluation_btn_normal"
+                android:gravity="center"
+                android:text="@string/text_custom_65"
+                android:textColor="@color/custom_circle_text" />
+
+            <Button
+                android:id="@+id/btn80"
+                android:layout_width="@dimen/custom_circle_size"
+                android:layout_height="@dimen/custom_circle_size"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_evaluation_btn_normal"
+                android:gravity="center"
+                android:text="@string/text_custom_80"
+                android:textColor="@color/custom_circle_text" />
+
+            <Button
+                android:id="@+id/btn100"
+                android:layout_width="@dimen/custom_circle_size"
+                android:layout_height="@dimen/custom_circle_size"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/circle_evaluation_btn_normal"
+                android:gravity="center"
+                android:text="@string/text_custom_100"
+                android:textColor="@color/custom_circle_text" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

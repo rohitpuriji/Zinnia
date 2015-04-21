@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgFlower"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buyer_dashboard" />
+
+        <LinearLayout
+            android:layout_width="@dimen/circle_price_size"
+            android:layout_height="@dimen/circle_price_size"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="@dimen/circle_price_margin"
+            android:background="@drawable/custom_circle_price"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvFrom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/text_from_margin_top"
+                android:gravity="center"
+                android:text="From"
+                android:textColor="@color/text_dashboard_cat_color"
+                android:textSize="@dimen/tap_text_size" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/text_price_margin_top"
+                android:gravity="center"
+                android:textColor="@color/text_dashboard_cat_color"
+                android:textSize="@dimen/or_text_size" >
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTitleFlorist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_from_margin_top"
+        android:gravity="left"
+        android:paddingLeft="@dimen/text_flowers_title_padding_left"
+        android:textSize="@dimen/ocassion_text_size"
+        android:textColor="@color/text_ocassion_color" />
+
+    <TextView
+        android:id="@+id/tvAway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/text_from_margin_top"
+        android:paddingLeft="@dimen/text_flowers_title_padding_left"
+        android:textSize="@dimen/text_away_size"
+        android:textColor="@color/or_enter_color" />
+
+</LinearLayout>
